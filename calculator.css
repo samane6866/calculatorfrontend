@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 400px;
+  background-color: black;
+  color: white;
+  position: relative;
+}
+.efect:hover {
+  background-color: rgb(192, 192, 192);
+}
+.efect:active {
+  background-color: brown;
+}
+/* .container::before {
+  content: " ";
+  z-index: -1;
+  transform: translate(5px);
+  position: absolute;
+  background-color: blue;
+  border-radius: 10px;
+}
+.container:active {
+  transform: translate(5px);
+} */
+.free-space {
+  color: beige;
+  font-size: 40px;
+  text-align: right;
+  padding: 30px 5px;
+}
+
+.button-click {
+  background-color: grey;
+  color: black;
+  width: 25%;
+  font-size: 40px;
+  height: 100px;
+  border-radius: 100px;
+  border: none;
+  margin: 1%;
+}
+.btn-row :last-child {
+  background-color: rgb(216, 144, 9);
+  color: white;
+}
+.btn-row {
+  display: flex;
+  align-content: stretch;
+  justify-content: space-between;
+}
+
+.triple {
+  width: 74%;
+}
+.double {
+  width: 49%;
+}
+.btn-row :last-child:hover {
+  background-color: rgb(173, 174, 100);
+}
+
+.oprators :hover {
+  background-color: rgb(144, 255, 127);
+}
+
+.btn-number {
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 146px;
+}
+.span-clear {
+  padding: 65px;
+  width: 330px;
+}
+
+.btn-number button {
+  background-color: rgba(209, 206, 202, 0.51);
+  font-size: 15px;
+  font-style: italic;
+  color: rgb(1, 1, 1);
+  font-weight: bolder;
+}
+.btn-number .span-clear {
+  background-color: rgb(214, 174, 89);
+  font-size: 35px;
+  font-style: italic;
+  color: black;
+  font-weight: bolder;
+}
+.btn-number .span-back {
+  background-color: rgba(18, 13, 13, 0.149);
+  font-size: 35px;
+  font-style: italic;
+  color: black;
+  font-weight: bolder;
+}
+
+.oprators {
+  display: flex;
+  flex-direction: column;
+  margin-left: -30px;
+}
+.oprators button {
+  background-color: rgb(240, 149, 22);
+  font-size: 35px;
+  font-weight: 200;
+  color: rgb(255, 251, 251);
+  font-weight: bolder;
+}
+.span-zero {
+  width: 350px;
+}
